@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "online_gaming_sells",
+  "info": {
+    "singularName": "online-gaming-sell",
+    "pluralName": "online-gaming-sells",
+    "displayName": "online gaming sell"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "price": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Reviews": {
+      "type": "text"
+    }
+  }
+}

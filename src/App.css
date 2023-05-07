@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+
+* {
+  background-color: azure;
+}
+.main-container {
+  height: 550px;
+  width: 700px;
+  border: 3px solid black;
+  margin-left: 400px;
+  background-color: white;
+}
+.main  {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+background-color: white;
+}
+ .main > .gamename{
+  margin:0px 40px 30px 40px;
+  background-color: white;
+}
+h1 {
+  font-family: "Audiowide", sans-serif;
+  font-stretch: ultra-expanded;
+  font-weight: 900;
+  letter-spacing: 3.5px;
+  background-color: #1f2e2e;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow:  4px 5px 8px green;
+}
+ul .li {
+  list-style-type: upper-roman;
+}
+b:hover {
+  color:greenyellow;
+background-color:cornflowerblue;
+}
+.cart {
+  width: 500px;
+  height:auto;
+  border: 2px solid black;
+  margin-left: 450px;
+  margin-top: 150px;
+}
+.shoppingcart {
+  width: 500px;
+  height: 50px;
+  border:2px solid grey;
+  background-color:#b6dede;
+}
+.shoppingcart > h4 {
+  background-color:#b6dede;
+  float: left;
+  margin-left: 10px;
+}
+main {
+  width: 500px;
+  height: 130px;
+  border-bottom: 1px solid #c2c2a3;
+}
+ #btn {
+  float: left;
+  margin-left: 10px;
+} 
+#btn:hover {
+  background-color:#94b8b8;
+}
+#cartData {
+  display: flex;
+  color: #282c34;
+  height: auto;
+}
+#checkout{
+  background-color: orangered;
+  font-weight: bold;
+  height: 25px;
+}
